@@ -1,0 +1,61 @@
+.title{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    padding: 5px;
+}
+.title h1{
+    color: lightseagreen;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cari{
+    position: right;
+}
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+
+.modal{
+    display:none;
+    position: fixed;
+    z-index:1;
+    left: 0;
+    top:0;
+    height: 100%;
+    width:100%;
+    overflow: auto;
+}
+.modal-content{
+    background-color:white;
+    margin: 20% auto;
+    width:70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+    animation-name:modalopen;
+    animation-duration:1s;
+}
+.modal-header h2, .modal-footer h5{
+    margin:0;
+}
+.modal-header{
+    background:lightseagreen;
+    padding:15px;
+    color:white;
+    text-align: center;
+    font-family: century;
+}
+.modal-body{
+    padding:10px 20px;
+}
+.modal-footer{
+    background:lightseagreen;
+    padding:10px;
+    color:white;
+    text-align: left;
+}
+
+@keyframes modalopen{
+    from{ opacity: 0}
+    to {opacity: 1}
+}
